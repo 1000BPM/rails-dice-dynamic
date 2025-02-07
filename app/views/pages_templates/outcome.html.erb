@@ -1,0 +1,10 @@
+
+<h1><%=@dice_user_input%>d<%=@sides_user_input%></h1>
+
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
